@@ -1,0 +1,31 @@
+      /* alcarruth.css */
+
+      /* enable/disable border outlining */
+      /* .important { border: 2px solid red !important; }  /* */
+
+      body {
+          margin: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          background-color: #fff;
+          padding: 30px;
+      }
+
+      .container {
+          display: flex;           /* Chrome 29+, IE 11+, Mozilla 28+ */
+          display: -webkit-flex;   /* Safari */
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+
+      .ws-client-view {
+          background-color: #fffff0;
+          border: 1px solid #bbb;
+          border-radius: 20px;
+          padding: 30px;
+      }
+
+      .ws-form {
+          background-color: inherit;
+      }

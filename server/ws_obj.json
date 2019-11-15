@@ -1,0 +1,9 @@
+{
+   "style": {
+      "color": "#f6f6e2",
+      "backgroundColor": "#374e93",
+      "border": "2px solid #008",
+      "fontFamily": "sans-serif",
+      "borderRadius": "20px"
+   }
+}

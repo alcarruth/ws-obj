@@ -1,0 +1,34 @@
+WebSocket Attributes
+---------------------
+
+ Socket.readyState
+
+  The readonly attribute readyState represents the state of the
+  connection. It can have the following values:
+
+  0: connection has not yet been established.
+  1: connection is established and communication is possible.
+  2: connection is going through the closing handshake.
+  3: connection has been closed or could not be opened.
+
+ Socket.bufferedAmount
+
+  The number of bytes of UTF-8 text that have been queued using send()
+  method.
+
+WebSocket Events
+-----------------
+
+ Event     Event Handler
+ open      Socket.onopen
+ message   Socket.onmessage
+ error     Socket.onerror
+ close     Socket.onclose
+
+
+WebSocket Methods
+------------------
+
+ Socket.send()
+ Socket.close()
+
