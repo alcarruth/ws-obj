@@ -1,0 +1,27 @@
+{
+  "name": "ws-obj",
+  "version": "1.0.0",
+  "description": "object sharing over websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcarruth/ws-obj.git"
+  },
+  "keywords": [
+    "shared",
+    "objects",
+    "websockets"
+  ],
+  "author": "Al Carruth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alcarruth/ws-obj/issues"
+  },
+  "homepage": "https://github.com/alcarruth/ws-obj#readme",
+  "dependencies": {
+    "coffeescript": "^2.4.1"
+  }
+}
