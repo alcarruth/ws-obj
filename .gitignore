@@ -1,6 +1,6 @@
 # build dirs
-browser/
-server/
+#browser/
+#server/
 
 # Logs
 logs
